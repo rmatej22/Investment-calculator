@@ -7,9 +7,9 @@ export default function UserInput({ userInput, onChangeInput }) {
           <input
             type="number"
             required
-            value={userInput.intialInvestment}
+            value={userInput.initialInvestment}
             onChange={(event) =>
-              onChangeInput("intialInvestment", event.target.value)
+              onChangeInput("initialInvestment", event.target.value)
             }
           />
         </p>
